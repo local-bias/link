@@ -5,7 +5,7 @@ import { ZennIcon } from 'src/components/ui/icon/zenn';
 import { website } from 'src/static/website';
 
 const Component: FC = () => (
-  <div className='mt-8 h-6 flex gap-8 justify-center text-slate-400'>
+  <div className='mt-8 h-6 flex gap-8 justify-center text-cyan-700'>
     {!!website.author.social.github && (
       <a
         href={`https://github.com/${website.author.social.github}`}

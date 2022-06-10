@@ -5,5 +5,5 @@
 body {
   font-family: 'Noto Sans JP', 'Yu Gothic Medium', YuGothic, 'Yu Gothic', 'ヒラギノ角ゴ Pro W3',
     'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
-  @apply text-slate-700 font-normal;
+  @apply text-cyan-700 font-normal;
 }
