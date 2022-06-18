@@ -25,7 +25,7 @@ const Component: FC = () => (
             key={i}
             target='_blank'
             rel='noopener'
-            className='shadow-glass rounded hover:shadow-glass-hover backdrop-blur-md transition text-center cursor-pointer py-5 px-8 bg-white bg-opacity-10'
+            className='shadow-glass-sm sm:shadow-glass rounded hover:shadow-glass-hover backdrop-blur-md transition text-center cursor-pointer py-5 px-8 bg-white bg-opacity-40 sm:bg-opacity-10'
             href={link.url}
           >
             {link.label}

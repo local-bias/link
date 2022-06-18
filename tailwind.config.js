@@ -4,6 +4,8 @@ module.exports = {
     extend: {
       boxShadow: {
         glass: '0 1px 3px -1px #0e749033, 0 3px 5px -2px #0e749044, inset 2px 2px 5px 1px #fffc',
+        'glass-sm':
+          '0 1px 3px -1px #0e749033, 0 2px 4px -2px #0e749044, inset 2px 2px 5px -1px #fffc',
         'glass-hover':
           '0 3px 5px -1px #0e749033, 0 8px 15px -5px #0e749044, inset 2px 2px 5px 1px #fffc',
       },
