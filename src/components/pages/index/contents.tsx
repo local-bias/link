@@ -5,7 +5,7 @@ import Social from './social';
 
 const Component: FC = () => (
   <div className='flex justify-center items-center h-screen'>
-    <div className='shadow-glass backdrop-blur-md max-w-screen-md w-[1024px] min-h-screen md:min-h-[80vh] bg-white bg-opacity-10 py-8 px-4 md:px-8 rounded'>
+    <div className='shadow-xl backdrop-blur-lg border-white max-w-screen-md w-[1024px] min-h-screen md:min-h-[80vh] bg-white bg-opacity-20 py-8 px-4 md:px-8 rounded-sm'>
       <div className='mb-8'>
         <div className='flex justify-center items-center'>
           <img
@@ -25,7 +25,7 @@ const Component: FC = () => (
             key={i}
             target='_blank'
             rel='noopener'
-            className='shadow-glass-sm sm:shadow-glass rounded hover:shadow-glass-hover backdrop-blur-md transition text-center cursor-pointer py-5 px-8 bg-white bg-opacity-40 sm:bg-opacity-10'
+            className='shadow-md hover:shadow-lg rounded-sm border-[0.5px] border-white backdrop-blur-md transition text-center cursor-pointer py-5 px-8'
             href={link.url}
           >
             {link.label}
